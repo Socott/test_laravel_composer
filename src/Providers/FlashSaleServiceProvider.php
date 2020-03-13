@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Scott\Flashsale;
-
+namespace Scott\Flashsale\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Scott\Flashsale\Http\Controllers\FlashSaleController;
 
 class FlashSaleServiceProvider extends ServiceProvider
 {
@@ -16,7 +16,7 @@ class FlashSaleServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('flashsale', function () {
-            return new FlashSale;
+            return new FlashSaleController;
         });
     }
 }
