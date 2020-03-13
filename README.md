@@ -1,1 +1,2 @@
 Composer测试laravel包开发
+Composer自动加载

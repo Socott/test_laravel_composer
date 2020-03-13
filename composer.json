@@ -14,5 +14,10 @@
         "psr-4": {
             "Scott\\Flashsale\\": "src/"
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "Scott\\Flashsale\\": "src/"
+        }
     }
 }
