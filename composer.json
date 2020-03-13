@@ -1,0 +1,13 @@
+{
+    "name": "scott/flashsale",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pengbin",
+            "email": "pengbin_2012@163.com"
+        }
+    ],
+    "require": {
+
+    }
+}
